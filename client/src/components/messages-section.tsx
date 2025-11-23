@@ -5,31 +5,31 @@ const messages = [
   {
     id: 1,
     title: "To Someone Special",
-    content: "On this special day, I wanted to remind you how amazing you are. Your love for Stranger Things inspired this entire experience - just like Eleven, you have the power to make impossible things happen.",
+    content: " We wanted to remind you how  dumboooooo you are [This is test word]. Your love for Stranger Things inspired this entire experience - just like Eleven, you have the power to make impossible things happen.",
     color: "#ff0000"
   },
   {
     id: 2,
     title: "Your Light in the Darkness",
-    content: "Just like the Christmas lights in the show, you bring light to every dark moment. Your smile is brighter than any Upside Down could ever be dark. Keep shining, Archi!",
+    content: "dumbooooooo",
     color: "#00d4ff"
   },
   {
     id: 3,
     title: "Never Forget",
-    content: "Friends don't lie - and I'm not lying when I say you deserve the best birthday ever. May this year bring you adventures as epic as Season 1 and moments as heartwarming as the friendship between the Party.",
+    content: "paglet",
     color: "#ffd700"
   },
   {
     id: 4,
     title: "Your Special Day",
-    content: "November 25th isn't just any day - it's the day someone extraordinary came into this world. Here's to making this birthday as unforgettable as the final episode of your favorite season!",
+    content: "dumbooooooo",
     color: "#ff0000"
   },
   {
     id: 5,
     title: "Wishing You Magic",
-    content: "May your birthday be filled with as much magic as Hawkins, as much courage as the Party, and as much love as you bring to everyone around you. Happy Birthday, Archi! 🎂",
+    content: "paglet",
     color: "#00d4ff"
   }
 ];
@@ -100,7 +100,7 @@ export function MessagesSection() {
     <section className="min-h-screen py-24 px-4" id="messages">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 
+          <h2
             className="font-display text-4xl md:text-6xl font-bold uppercase mb-4"
             style={{
               color: '#ff0000',
@@ -126,13 +126,13 @@ export function MessagesSection() {
               ref={(el) => (messageRefs.current[index] = el)}
               data-index={index}
               className={`transition-all duration-700 ${
-                visibleMessages.has(index) 
-                  ? 'opacity-100 translate-y-0' 
+                visibleMessages.has(index)
+                  ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-12'
               }`}
               data-testid={`card-message-${message.id}`}
             >
-              <Card 
+              <Card
                 className="p-8 bg-card/60 backdrop-blur-sm border-2"
                 style={{
                   borderColor: message.color,
@@ -140,7 +140,7 @@ export function MessagesSection() {
                 }}
               >
                 <div className="mb-4 flex items-center gap-3">
-                  <div 
+                  <div
                     className="w-3 h-3 rounded-full animate-pulse"
                     style={{
                       backgroundColor: message.color,
@@ -148,7 +148,7 @@ export function MessagesSection() {
                     }}
                     data-testid={`indicator-message-${message.id}`}
                   />
-                  <h3 
+                  <h3
                     className="font-terminal text-xl font-bold uppercase tracking-wider"
                     style={{ color: message.color }}
                     data-testid={`text-message-title-${message.id}`}
@@ -156,8 +156,8 @@ export function MessagesSection() {
                     {message.title}
                   </h3>
                 </div>
-                
-                <div 
+
+                <div
                   className="font-terminal text-base leading-relaxed"
                   style={{
                     color: '#ffffff',
@@ -165,8 +165,8 @@ export function MessagesSection() {
                   }}
                   data-testid={`text-message-content-${message.id}`}
                 >
-                  <TypewriterText 
-                    text={message.content} 
+                  <TypewriterText
+                    text={message.content}
                     isVisible={visibleMessages.has(index)}
                   />
                 </div>

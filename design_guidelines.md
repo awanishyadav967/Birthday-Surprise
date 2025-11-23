@@ -11,7 +11,7 @@
 
 ## Typography
 
-**Primary Display Font**: 
+**Primary Display Font**:
 - Use "Benguiat" or similar retro serif font for main titles (via Google Fonts alternative like "Cinzel" or custom web font)
 - All-caps for maximum impact: "HAPPY BIRTHDAY ARCHI"
 - Implement text glow effect using text-shadow for the iconic red neon look
@@ -77,7 +77,7 @@
 
 ### Footer
 - Retro credits section styled like end credits
-- "Made with ❤️ for Archi" message
+- "Made with hate for Archi by her Friends anmol....saad....bhawna...kanika...etc etc  " message
 - Social share buttons (optional) with 80s icon styling
 - Keep minimal and understated
 
@@ -100,7 +100,7 @@
 
 ## Images
 
-**Hero Background**: 
+**Hero Background**:
 - Option 1: Dark atmospheric forest scene with fog (Upside Down vibe)
 - Option 2: Retro TV static/noise pattern
 - Option 3: Abstract particle field on dark background
