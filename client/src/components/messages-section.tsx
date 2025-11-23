@@ -5,31 +5,31 @@ const messages = [
   {
     id: 1,
     title: "To Someone Special",
-    content: " We wanted to remind you how  dumboooooo you are [This is test word]. Your love for Stranger Things inspired this entire experience - just like Eleven, you have the power to make impossible things happen.",
+    content: " On this special day, I wanted to remind you how amazing you are. Your love for Stranger Things inspired this entire experience - just like Eleven, you have the power to make impossible things happen.",
     color: "#ff0000"
   },
   {
     id: 2,
-    title: "Your Light in the Darkness",
+    title: "Just like the Christmas lights in the show, you bring light to every dark moment. Your smile is brighter than any Upside Down could ever be dark. Keep shining, Archi!",
     content: "dumbooooooo",
     color: "#00d4ff"
   },
   {
     id: 3,
     title: "Never Forget",
-    content: "paglet",
+    content: "Friends don't lie - and I'm not lying when I say you deserve the best birthday ever. May this year bring you adventures as epic as Season 1 and moments as heartwarming as the friendship between the Party.",
     color: "#ffd700"
   },
   {
     id: 4,
     title: "Your Special Day",
-    content: "dumbooooooo",
+    content: "November 25th isn't just any day - it's the day someone extraordinary came into this world. Here's to making this birthday as unforgettable as the final episode of your favorite season!",
     color: "#ff0000"
   },
   {
     id: 5,
     title: "Wishing You Magic",
-    content: "paglet",
+    content: "November 25th isn't just any day - it's the day someone extraordinary came into this world. Here's to making this birthday as unforgettable as the final episode of your favorite season!",
     color: "#00d4ff"
   }
 ];
