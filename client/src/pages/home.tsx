@@ -30,7 +30,7 @@ export default function Home() {
           <footer className="py-12 text-center border-t border-border/30">
             <p className="font-terminal text-muted-foreground text-sm">
               Made with{" "}
-              <span className="text-primary animate-pulse">hate</span>{" "}
+              <span className="text-primary animate-pulse">❤️</span>{" "}
               for Archi
             </p>
             <p className="font-retro text-xs text-muted-foreground/70 mt-2">
